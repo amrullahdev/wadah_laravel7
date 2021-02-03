@@ -26,7 +26,7 @@
                     <router-link to="/" class="nav-link text-gray">
                         <i class="nav-icon fa fa-home  "></i>
                         <p>
-                            Dashboard
+                            Halaman Utama
                         </p>
                     </router-link>
                 </li>
@@ -53,6 +53,7 @@
                         </li>
                     </ul>
                 </li>
+                @auth
                 <li class="nav-item">
                     <a href=" {{route('logout')}} " class="nav-link" 
                     onclick="event.preventDefault();
@@ -66,6 +67,7 @@
                         </form>
                     </a>
                 </li>
+                @endauth
             </ul>
         </nav>
         <!-- /.sidebar-menu -->
