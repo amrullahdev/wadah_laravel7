@@ -2,6 +2,34 @@
 	Starterpack Laravel 7 dengan vue Js 2 
 </h1>
 
+
+<p>
+	<strong>
+		Update 5 Febuari 
+	</strong>
+	<ul>
+		<li>
+			Menambahkan Function titlePage pada app.js1
+		</li>
+		<p>
+			function ini berfungsi untuk membuat page title yang dapat di atur 
+			dengan hanya menggil function <strong>titlePage(namaPage,Parameter)</strong>
+			Parameter sendiri terdiri dari 3 pilihan , 
+			<ul> 
+				<li>1. Dengan membiarkanya null </li>
+				<p>
+					dengan demikian secara default title page 
+					akan mengubah header title dan navbar title
+				</p>
+				<li>2. onlyPage</li>
+				<p>Dengan demikian title hanya akan mengubah nama page pada header</p>
+				<li>3. onlyNavbar</li>
+				<p>Dengan demikian title hanya akan mengubah nama page pada Navbar</p>
+			</ul>
+		</p>
+	</ul>
+</p>
+
 <p>dalam repo ini sudah terdapat laravel versi 7 dengan vue js yang telah terpasang package , list package yang telah telah terpasang : </p>
 <ul>
 	<li>
