@@ -11,6 +11,4 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    public $destinasi=114;
-    public $lokasiUsaha='501';
 }
