@@ -45,7 +45,7 @@
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <router-link to="/pengaturan-akun" class="nav-link text-gray">
                                 <i class="nav-icon fa fa-lock"></i>
                                 <p>Ubah Password</p>

@@ -30,10 +30,10 @@
             user-select:none;
         }
         .nav-link.router-link-exact-active.router-link-active>.menu-title{
-            color:#b66dff !important;
+            color:#3490dc !important;
         }
         .router-link-exact-active.router-link-active{
-            color:#b66dff !important;
+            color:#3490dc !important;
         }
 
         .animate__faster{

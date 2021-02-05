@@ -10,7 +10,7 @@
 @endif
 
 @if(session('sukses'))
-	<div class="alert alert-success"  id="alert_message" role="alert">
+	<div class="alert alert-success"  id="alert_message " role="alert">
 		{{session('sukses')}}
 	  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
 	    <span aria-hidden="true">&times;</span>
