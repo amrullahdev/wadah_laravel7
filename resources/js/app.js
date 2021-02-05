@@ -26,12 +26,15 @@ Vue.use(VModal, { dynamicDefault: { draggable: true, resizable: true } })
 // Create Title Page 
 window.titlePage=function(title,param=null){
     let getClassTitlePage=document.querySelectorAll(".title-page");
+
+    if (param =='onlyNavbar'){ 
+        return  getClassTitlePage[1].textContent=title
+    }
+    if (param =='onlyPage') { 
+        return  getClassTitlePage[0].textContent=title
+    }    
     
     for (var i = 0; i < getClassTitlePage.length; i++) {
-
-        if (param =='onlyNavbar'){ i=1 }
-        if (param =='onlyPage') { i=0 }
-
         getClassTitlePage[i].textContent=title
     }
 }
