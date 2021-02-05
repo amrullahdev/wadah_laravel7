@@ -23,6 +23,21 @@ Vue.prototype.$akses = new akses(window.user);
 Vue.use(VModal, { dynamicDefault: { draggable: true, resizable: true } })
 
 
+// Create Title Page 
+window.titlePage=function(title,param=null){
+    let getClassTitlePage=document.querySelectorAll(".title-page");
+    
+    for (var i = 0; i < getClassTitlePage.length; i++) {
+
+        if (param =='onlyNavbar'){ i=1 }
+        if (param =='onlyPage') { i=0 }
+
+        getClassTitlePage[i].textContent=title
+    }
+}
+// ======
+
+
 // Mement Js Component
 import moment from 'moment';
 Vue.filter('TGL',function(data){
