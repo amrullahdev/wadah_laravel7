@@ -7,8 +7,6 @@ use App\Model\Admin;
 class rootConfig 
 {
 	public $DEVELOPER_MODE=false;
-	public $RJO='ce416f2d7e90b0f167037149f5bc1680';
-	public $RJO_BASE='https://api.rajaongkir.com/starter';
 
 	public function adminLogin()
 	{
