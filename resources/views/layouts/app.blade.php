@@ -19,8 +19,21 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <style>
+        .cl-primary{
+            color: #6BC6F0;
+        }
+
+        .btn-primary{
+            background-color: #6BC6F0; 
+            border-color:  #6BC6F0;
+        }
+        .btn-primary:hover{
+            background-color: #5dacd1;
+            border-color: #5dacd1;  
+            transition: 100ms;
+        }
         .bs-1{
-           box-shadow: 0px 2px 9px 1px #eac4f1;
+           box-shadow: 0px 2px 9px 1px #eac4f1; 
         },
         .als{
             align-self: center;
@@ -41,34 +54,10 @@
         }
     </style>
 </head>
- <body class="hold-transition sidebar-mini layout-navbar-fixed layout-fixed">
-    <!-- Site wrapper -->
-    <div class="wrapper" id="app">
-        <!-- Navbar -->
-        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-            <!-- Left navbar links -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" data-widget="pushmenu" href="#"><i class="fa fa-bars"></i></a>
-                </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-            </ul>
-        </nav>
-        @include('inc.sidebar-df')
-        <div class="content-wrapper">
-            <div class="container py-4">
-                <router-view></router-view>
-                <vue-progress-bar></vue-progress-bar>
-            </div>
-        </div>
-    </div>
-    <script>
-        @auth
-            window.user = @json(auth()->user())
-        @endauth
-    </script>
-    <script src="/js/app.js"></script>
-</body>
-
+@guest
+    @include('layouts.non-login')
+@endguest
+@auth
+    @include('layouts.login')
+@endauth
 </html>

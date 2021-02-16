@@ -32920,6 +32920,12 @@ a.text-muted:hover {
   color: #ced4da;
 }@charset "UTF-8";
 
+@font-face {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  src: url("/font/Poppins/Poppins-Regular.ttf");
+}
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
