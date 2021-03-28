@@ -1,6 +1,8 @@
 <h1 style="text-align: center">
-	Starterpack Laravel 7 dengan vue Js 2 
+	Starterpack Laravel 8 dengan vue Js 2 
 </h1>
+
+28 Maret : update to laravel 8
 
 
 <p>
