@@ -11,6 +11,9 @@ import router from './kostum/router/router'
 import akses from  './kostum/akses'
 import 'animate.css';
 
+import Vue from 'vue'
+
+
 
 window.Vue = require('vue');
 window.nv=new Vue();
