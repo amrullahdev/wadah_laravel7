@@ -4,11 +4,11 @@ export default class Akses{
 	}
 	
 	admin(){
-		return this.user.akses === 'admin';
+		return this.user.role === 'admin';
 	}
 
 	isUser(){
-		return this.user.akses === 'client';
+		return this.user.role === 'client';
 	}
 
 
