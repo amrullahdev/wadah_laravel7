@@ -1,6 +1,6 @@
 <template>
-    <div class="text-center">
-        asldfkasdlfkjlk
+    <div class="text-center  my-3">
+        <h1>Last Update Sunday 27 Juni 2021 </h1>
     </div>
 </template>
 
