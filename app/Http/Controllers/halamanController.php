@@ -9,12 +9,11 @@ class halamanController extends Controller
 
     public function __invoke()
     {
-    	return view('home');
+        return view('home');
     }
 
     public function homepage()
     {
         return view('layouts.app');
     }
-
 }
