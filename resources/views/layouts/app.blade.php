@@ -16,6 +16,15 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #34495e;
+        }
+
+        .bgf-dark {
+            background: var(--bg-dark);
+        }
+    </style>
 </head>
 
 @auth
