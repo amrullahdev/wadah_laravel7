@@ -33546,6 +33546,11 @@ a.text-muted:hover {
   --animate-duration:300ms;
 }
 
+.tdn {
+  text-decoration: none !important;
+  color: black;
+}
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
