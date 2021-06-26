@@ -1,0 +1,20 @@
+.bs-1{
+    box-shadow: 0px 2px 9px 1px #9c9c9c;
+ }
+ .als{
+     align-self: center;
+ }
+ .cp{
+     cursor: pointer;
+     user-select:none;
+ }
+ .nav-link.router-link-exact-active.router-link-active>.menu-title{
+     color:#3490dc !important;
+ }
+ .router-link-exact-active.router-link-active{
+     color:#3490dc !important;
+ }
+
+ .animate__faster{
+       --animate-duration:300ms;
+ }
