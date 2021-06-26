@@ -67026,11 +67026,18 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "text-center" }, [
-    _vm._v("\n    asldfkasdlfkjlk\n")
-  ])
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "text-center  my-3" }, [
+      _c("h1", [_vm._v("Last Update Sunday 27 Juni 2021 ")])
+    ])
+  }
+]
 render._withStripped = true
 
 
