@@ -6,12 +6,12 @@ let route;
 let role_user
 
 if (window.user) {
-	role_user=window.user.akses;
+	role_user=window.user.role;
 }else{
 	role_user=0;
 }
 
-if (role_user == 'admin') {
+if (role_user == '1') {
 	route=admin_router;
 }
 
