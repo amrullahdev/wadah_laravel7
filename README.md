@@ -1,9 +1,38 @@
 <h1 style="text-align: center">
 	Starterpack Laravel 8 dengan vue Js 2 
 </h1>
+<p>28 Maret : update to laravel 8</p>
 
-28 Maret : update to laravel 8
+<h5>how to install ?</h5>
+<ul>
+    <li>Composer install</li>
+    <li>npm install</li>
+    <li>cp .env.example .env</li>
+    <li>php artisan key:generate</li>
+    <li><strong>CREATE THE DATABASE</strong></li>
+    <li>php artisan migrate</li>
+    <li>php artisan passport:install</li>
+</ul>
 
+<p>
+	<strong>
+		27 Juni 2021 :
+	</strong>
+		<ul>
+			<li>Fix masalah npm error		</li>
+			<li>add email filabel user		</li>
+			<li>menambahkan function untuk autogenerate primary key 		</li>
+			<p>
+				    public function get_primaryKey($kd)
+					{
+						return $kd . substr(rand() * time(), 0, 6);
+					}
+			</p>
+			<li>mengubah kolom <strong>akses</strong> jadi <strong>role</strong></li>
+			<li>Tampilan Layout Base berbeda antara Guest dan Auth</li>
+    	</ul>
+
+</p>
 
 <p>
 	<strong>
