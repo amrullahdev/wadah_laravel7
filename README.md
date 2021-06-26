@@ -5,7 +5,7 @@
 
 <h5>how to install ?</h5>
 <ul>
-    <li>Composer install</li>
+    <li>composer install</li>
     <li>npm install</li>
     <li>cp .env.example .env</li>
     <li>php artisan key:generate</li>
@@ -40,7 +40,7 @@
 	</strong>
 	<ul>
 		<li>
-			Menambahkan Function titlePage pada app.js1
+			Menambahkan Function titlePage pada app.js
 		</li>
 		<p>
 			function ini berfungsi untuk membuat page title yang dapat di atur 
