@@ -2614,12 +2614,12 @@ var Akses = /*#__PURE__*/function () {
   _createClass(Akses, [{
     key: "admin",
     value: function admin() {
-      return this.user.akses === 'admin';
+      return this.user.role === 'admin';
     }
   }, {
     key: "isUser",
     value: function isUser() {
-      return this.user.akses === 'client';
+      return this.user.role === 'client';
     }
   }]);
 
@@ -3021,12 +3021,12 @@ var route;
 var role_user;
 
 if (window.user) {
-  role_user = window.user.akses;
+  role_user = window.user.role;
 } else {
   role_user = 0;
 }
 
-if (role_user == 'admin') {
+if (role_user == '1') {
   route = _admin_router_js__WEBPACK_IMPORTED_MODULE_1__.default;
 }
 
