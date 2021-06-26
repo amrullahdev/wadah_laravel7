@@ -7,7 +7,11 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-Route::middleware('auth:api')->group(function(){
+Route::apiResources(['daftar' => 'API\autentikasiController'], [
+    'only' => ['store']
+]);
+
+Route::middleware('auth:api')->group(function () {
     // Route::apiResources(['index-user' => 'API\userController'],[
     // 	'except'=>['edit','show','create']
     // ]);
