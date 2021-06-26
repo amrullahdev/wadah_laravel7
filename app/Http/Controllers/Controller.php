@@ -11,4 +11,9 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
+
+    public function get_primaryKey($kd)
+    {
+        return $kd . substr(rand() * time(), 0, 6);
+    }
 }
