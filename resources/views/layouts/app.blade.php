@@ -9,7 +9,10 @@
     <title id="title-page">{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="/css/app.css">
+    {{-- <link rel="stylesheet" href="/css/app.css"> --}}
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
+    <script type="text/javascript" src="{{ asset('js/custom.js') }}" defer></script>
+
     <!-- Scripts -->
     <link rel="stylesheet" media="screen, print" href="/css/app.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
