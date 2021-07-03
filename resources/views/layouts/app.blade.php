@@ -10,7 +10,7 @@
 
     <!-- Styles -->
     {{-- <link rel="stylesheet" href="/css/app.css"> --}}
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
+    <link href="{{ asset('app.css') }}" rel="stylesheet" type="text/css" >
     <script type="text/javascript" src="{{ asset('js/custom.js') }}" defer></script>
 
     <!-- Scripts -->
@@ -29,9 +29,8 @@
         }
     </style>
 </head>
-
 @auth
-    @include('layouts/login')
+    @include('layouts/auth')
 @else
     @include('layouts/guest')
 @endauth
