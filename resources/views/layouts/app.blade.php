@@ -20,8 +20,23 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <style>
-        :root {
-            --bg-dark: #34495e;
+
+.page-item.active .page-link {
+            background-color: #e3342f;
+            border-color: #e3342f;
+        }
+
+        .page-link:hover {
+            color: #992420;
+        }
+
+        .page-link {
+            color: #d3312b;
+        }
+
+
+        .pagination>li>a:focus {
+            box-shadow: none !important;
         }
 
         .bgf-dark {
