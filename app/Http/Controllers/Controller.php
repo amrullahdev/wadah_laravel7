@@ -29,6 +29,12 @@ class Controller extends BaseController
     }
 
 
+    public function unlink($data)
+    {
+        return @unlink(public_path() . $data);
+    }
+
+
     public function membuatFolder($namaFolder)
     {
         $path = public_path() . $namaFolder;
