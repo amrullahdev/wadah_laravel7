@@ -8,10 +8,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title id="title-page">{{ config('app.name', 'Laravel') }}</title>
 
-    <!-- Styles -->
-    {{-- <link rel="stylesheet" href="/css/app.css"> --}}
-    <link href="{{ asset('app.css') }}" rel="stylesheet" type="text/css" >
-    <script type="text/javascript" src="{{ asset('js/custom.js') }}" defer></script>
 
     <!-- Scripts -->
     <link rel="stylesheet" media="screen, print" href="/css/app.css">
@@ -20,8 +16,7 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <style>
-
-.page-item.active .page-link {
+        .page-item.active .page-link {
             background-color: #e3342f;
             border-color: #e3342f;
         }
@@ -42,6 +37,7 @@
         .bgf-dark {
             background: var(--bg-dark);
         }
+
     </style>
 </head>
 @auth

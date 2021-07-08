@@ -1,6 +1,6 @@
 <body>
     <div class="pb-4" id="app">
-    <div class="p-2 bgf-dark text-white">
+    <div class="p-2 bg-dark text-white">
             <div class="container">
                 <div class="row no-gutters">
                     <div class="col-sm">
