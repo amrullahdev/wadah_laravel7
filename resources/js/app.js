@@ -141,6 +141,10 @@ Vue.prototype.$captKey ='6LcreRQaAAAAAC5G6evH5dfh70UxYKLekCdsVezQ';
 // Pagination component
 Vue.component('pagination', require('laravel-vue-pagination'));
 // =====
+
+Vue.component('kosong',require('../vue-views/component/kosong.vue').default)
+Vue.component('kembali',require('../vue-views/component/kembali.vue').default)
+Vue.component('loading',require('../vue-views/component/loading.vue').default)
 const app = new Vue({
     el: '#app',
     router
